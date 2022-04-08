@@ -17,3 +17,7 @@ menu.addEventListener('click', function(){
 cross.addEventListener('click', function(){
     hamburger.classList.remove('active');
 })
+
+/* 
+    É best practice definire le costanti con uso singolo (ad esempio la costante hamburger) direttamente nella funzione di utilizzo invece di averle come funzioni globali che incrementano il rischio di problemi nelcaso in cui abbiamo molto codice e molte costanti.
+*/
